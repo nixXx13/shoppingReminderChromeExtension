@@ -1,0 +1,22 @@
+{
+  "name": "shopping reminder",
+  "version": "1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon50.png"
+  },
+  "background": {
+    "scripts":["background.js"
+			 ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+	"storage"
+  ]
+}
