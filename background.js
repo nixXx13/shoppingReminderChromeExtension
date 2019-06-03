@@ -83,4 +83,3 @@ function extractParams(){
 }
 
 
-// TODO - just read https://www.codereadability.com/preventing-a-callback-from-accidentally-being-called-twice/
